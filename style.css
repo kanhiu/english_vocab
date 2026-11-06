@@ -1,0 +1,28 @@
+body {
+    background: #f5f7fb;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.btn {
+    border-radius: 9px;
+}
+
+.form-control {
+    border-radius: 9px;
+}
+
+.hero {
+    background: linear-gradient(120deg, #175cd3, #7546d8);
+    color: white;
+    border-radius: 20px;
+}
+
+.word {
+    font-size: 38px;
+    font-weight: bold;
+}
