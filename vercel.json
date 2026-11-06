@@ -1,8 +1,16 @@
 {
-  "rewrites": [
+  "version": 2,
+  "plugins": [],
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/api/index.php"
+      "src": "api/index.php",
+      "use": "vercel-php@0.7.2"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/index.php"
     }
   ]
 }
